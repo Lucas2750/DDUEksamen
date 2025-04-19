@@ -29,53 +29,6 @@ public class Scenario : MonoBehaviour
 
     void Update()
     {
-        /*
-        Random rnd = new Random();
-        int Chance1 = rnd.Next(1, 2);
-        int Chance2 = rnd.Next(1, 2);
-        int Chance3 = rnd.Next(1, 2);
-        int Chance4 = rnd.Next(1, 2);
-
-        int Age1 = rnd.Next(14, 18);
-        int Age2 = rnd.Next(13, 19);
-        int Age3 = rnd.Next(10, 19);
-        int Age4 = rnd.Next(16, 25);
-        
-
-        Debug.Log(Age4);
-        
-
-        if(Age1 ==Age2)
-        {
-            Age2 = Age2 + 1;
-        }
-
-        if(Age1 ==Age3)
-        {
-            Age3 = Age3 + 1;
-        }
-
-        if(Age1 ==Age4)
-        {
-            Age4 = Age4 - 1;
-        }
-
-        if(Age2 ==Age3)
-        {
-            Age3 = Age3 + 1;
-        }
-
-        if(Age2 ==Age4)
-        {
-            Age4 = Age4 - 1;
-        }
-
-        if(Age3 ==Age4)
-        {
-            Age4 = Age4 - 1;
-        }
-        */
-
             if (Age.currentAge >= 18)
             {
                 Scenario1.position = In.position;
