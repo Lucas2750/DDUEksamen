@@ -12,8 +12,8 @@ public class CharacterGroth : MonoBehaviour
     public Transform Old;
     public Transform Cane;
     public Transform RIP;
-    public Transform GamePlace;         //Her er det Transform oplysningerne for et objekt udefra spil skærmen
-    public Transform AwayPlace;         //Her er det Transform oplysningerne for et objekt indeni spil skærmen
+    public Transform GamePlace;         //Her er det Transform oplysningerne for et objekt inden for spil skærmen
+    public Transform AwayPlace;         //Her er det Transform oplysningerne for et objekt udenfor spil skærmen
 
     void Update()
     {
